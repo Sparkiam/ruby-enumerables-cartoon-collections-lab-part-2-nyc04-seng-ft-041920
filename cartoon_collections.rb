@@ -37,7 +37,7 @@ def find_valid_calls(planeteer_calls)
    
    successful_matches = []
    planeteer_calls.each do |call| 
-      if valid_calls.include?(call)
+      # if valid_calls.include?(call)
          successful_matches << call
          end
       end
