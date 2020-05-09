@@ -40,7 +40,7 @@ def find_valid_calls(planeteer_calls)
       # if valid_calls.include?(call)
          successful_matches << call
          end
-      end
+      # end
    if successful_matches.count > 0
       return successful_matches[0]
    else 
